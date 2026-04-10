@@ -1,0 +1,23 @@
+{
+  "title": "Agentic Flow for Long-Form Document Generation",
+  "thesis": "Generating long, coherent documents with AI in a single attempt presents significant challenges, leading to issues like 'context drift' and loss of global coherence. This lecture proposes an 'agentic flow' architecture that addresses these problems by breaking down complex generative tasks, such as screenplay writing, into hierarchical, sequential stages. Each stage employs specialized agents and structured data (JSON) to build upon previous context, ensuring progressive refinement and consistent output, a methodology proven to be broadly generalizable across various document types.",
+  "scope": "This lecture explores the fundamental difficulties encountered when using AI for one-shot generation of lengthy and structured documents, and subsequently details a multi-stage, agentic architectural approach to overcome these hurdles. It uses the process of movie screenplay generation—from premise to scene—as a primary, concrete demonstration. While screenplays serve as the central example, the lecture also explicitly highlights the broad applicability and generalization of this 'agentic flow' to other long document formats, such as books, lectures, or business plans. The focus is on the architectural strategy and workflow rather than the internal technicalities of specific underlying AI models.",
+  "learning_objectives": [
+    "Identify the core challenges associated with generating long, coherent documents using AI in a single pass.",
+    "Describe the hierarchical structure of a movie screenplay and how it informs a multi-stage, modular generation process.",
+    "Explain the concept and benefits of an 'agentic flow' for decomposing complex generative AI tasks into manageable steps.",
+    "Outline the roles of distinct agents (Premise, Arc, Sequence, Scene) and their corresponding structured outputs (JSON files) within a generative workflow.",
+    "Understand how context is maintained and 'context drift' is combated through hierarchical input and sequential processing across agents.",
+    "Recognize the potential for 'enhancement agents' to iteratively refine and improve generated content at various stages of the workflow.",
+    "Appreciate the generalizability of this agentic architecture to automate the creation of diverse long-form documents beyond screenplays."
+  ],
+  "intended_audience": "This lecture is designed for developers, AI practitioners, creative professionals, and anyone interested in leveraging generative AI for complex, long-form content creation. It is particularly relevant for those seeking structured, architectural approaches to overcome common challenges in AI-powered text generation.",
+  "key_themes": [
+    "Agentic AI Architectures",
+    "Long-Form Content Generation",
+    "Hierarchical Design Patterns",
+    "Context Management in AI",
+    "Structured Generative Workflows",
+    "AI for Creative Production"
+  ]
+}

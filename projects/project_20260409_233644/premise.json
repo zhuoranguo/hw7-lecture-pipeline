@@ -1,0 +1,22 @@
+{
+  "title": "Building Agentic Flows for Coherent Long-Form Document Generation",
+  "thesis": "While AI typically struggles to generate long, coherent documents in a single attempt due to context drift and maintaining global consistency, this lecture demonstrates that implementing a hierarchical, multi-agent 'agentic flow' architecture can effectively overcome these challenges. By breaking down complex generation tasks into manageable, context-aware stages—as exemplified by the detailed process of creating a movie screenplay—this approach ensures coherence and quality, and is broadly generalizable to various other long-form document types.",
+  "scope": "This lecture covers the fundamental challenges of using AI to generate extensive and coherent text documents and introduces a multi-agent, hierarchical architecture designed to address these issues. It provides a practical, step-by-step demonstration of this 'agentic flow' using movie screenplay generation as a primary case study, detailing the function and output of each specialized agent (Premise, Arc, Sequence, Scene). Furthermore, the lecture explores how these agentic flows can be enhanced for improved output quality and generalized to create a wide array of other long-form document types, such as books, podcasts, or business plans. It focuses on the architectural pattern and its application rather than delving into the underlying large language model mechanics or specific coding implementations beyond the conceptual flow.",
+  "learning_objctives": [
+    "Identify the core challenges faced by AI when generating long, coherent text documents in a 'one-shot' manner.",
+    "Understand the hierarchical structure and essential elements required for comprehensive document generation, specifically for screenplays.",
+    "Explain the concept and components of an agentic flow architecture designed to generate complex, long-form content.",
+    "Describe the function and interplay of individual agents (Premise, Arc, Sequence, Scene) within a multi-step content generation pipeline.",
+    "Propose strategies for enhancing the quality and creativity of outputs within an agentic generation flow through refinement agents.",
+    "Recognize how to adapt and apply the presented agentic flow architecture to create various other types of long-form documents."
+  ],
+  "intended_audience": "This lecture is intended for developers, AI practitioners, content creators, and anyone interested in practical architectural patterns for applying AI to complex and structured long-form text generation. It is suitable for those seeking to build robust solutions for content creation beyond simple prompt-response interactions.",
+  "key_themes": [
+    "AI for Long-Form Content",
+    "Agentic AI Architecture",
+    "Hierarchical Content Generation",
+    "Context Management in AI",
+    "Iterative Content Refinement",
+    "Generalization of AI Flows"
+  ]
+}

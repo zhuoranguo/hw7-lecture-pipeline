@@ -1,0 +1,35 @@
+{
+  "tone": "Conversational, informal, enthusiastic, and confident. The instructor often uses humor and a playful, peer-like demeanor, while also being direct and opinionated on technical matters.",
+  "pacing": "Dynamic and conversational, with frequent asides, rhetorical questions, and pauses for emphasis or confirmation. Ideas are introduced with a mix of quick, emphatic statements and more deliberate, winding explanations that often include personal anecdotes and interactive moments.",
+  "fillers_and_hedges": [
+    "like",
+    "you know",
+    "right?",
+    "yeah?",
+    "I don't know",
+    "um",
+    "uh",
+    "so",
+    "maybe",
+    "kind of"
+  ],
+  "how_they_frame_ideas": "The instructor frequently introduces new topics with informal discourse markers like \"Okay, so,\" \"So yeah,\" or \"And then.\" They often frame ideas by posing a question to the audience (e.g., \"Wouldn't that be cool?\") or by setting up a problem, followed by a solution or explanation. Personal anecdotes, often relatable to their own coding or teaching experiences, are consistently used to illustrate complex technical concepts.",
+  "audience_address": "Highly informal, inclusive, and interactive. The instructor treats the audience as peers, using terms like \"dude,\" \"bro,\" and \"y'all.\" They actively encourage participation through direct questions, chat interaction, and seeking confirmation, fostering a relaxed and engaging learning environment.",
+  "signature_phrases": [
+    "I don't know",
+    "you know?",
+    "like",
+    "right?",
+    "Awesome.",
+    "Just a heads up.",
+    "Okay, so...",
+    "Yo,"
+  ],
+  "narration_guidance": [
+    "Maintain a conversational and informal tone, as if speaking directly to a group of peers.",
+    "Use a dynamic pace, allowing for natural pauses, rhetorical questions, and occasional asides, while also delivering key points with confidence.",
+    "Incorporate common fillers and discourse markers such as 'like,' 'you know,' 'right?,' 'so,' and 'um' to enhance the natural, unscripted feel.",
+    "When introducing new concepts, consider framing them with an engaging question or a relatable, anecdotal setup, and encourage audience participation.",
+    "Emphasize key takeaways with enthusiasm and a slight upward inflection, especially on phrases like 'That'd be awesome' or when concluding a section."
+  ]
+}

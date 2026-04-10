@@ -1,0 +1,22 @@
+{
+  "title": "Generating Long-Form Content: Building Agentic Flows for Screenplays and Beyond",
+  "thesis": "While AI excels at generating short, coherent text, producing extensive, structurally complex documents like screenplays in a 'one-shot' approach presents significant challenges such as context drift and loss of global coherence. This lecture introduces a hierarchical, agentic workflow that breaks down long-form content generation into manageable, sequential stages—from premise to scene—allowing specialized AI agents to collaboratively build a coherent narrative. This approach, exemplified through screenplay creation, demonstrates a robust method for leveraging AI to overcome inherent limitations in long-text generation and is broadly applicable to diverse document types.",
+  "scope": "This lecture provides a practical deep dive into designing and implementing an agentic AI architecture for generating structured, long-form documents. It specifically covers the development of a multi-agent system for screenwriting, detailing the roles of specialized agents for premise, story arc, sequences, and scenes, as well as the integration of enhancement agents for refining output quality. The lecture also demonstrates the generalization of this hierarchical flow to other document types, such as books, podcasts, lectures, and business plans. It focuses on the architectural design and implementation principles rather than in-depth theoretical linguistics of AI models or advanced creative writing theory.",
+  "learning_objectives": [
+    "Understand the core challenges and limitations of using AI for 'one-shot' generation of long-form, coherent text.",
+    "Design and implement a hierarchical, agentic workflow to manage the complexity of generating structured long documents.",
+    "Utilize specialized AI agents (e.g., Premise, Arc, Sequence, Scene agents) to break down and generate components of a screenplay.",
+    "Integrate and apply 'enhancement agents' to improve the quality, consistency, and creativity of intermediate AI-generated outputs.",
+    "Adapt the agentic flow architecture to generate various other long-form document types by modifying agent prompts and hierarchical structures.",
+    "Write a short screenplay by practically applying the learned agentic flow concepts during a coding session."
+  ],
+  "intended_audience": "This lecture is intended for developers, AI practitioners, writers, and creative professionals interested in leveraging advanced AI techniques to generate complex, structured long-form content. Participants should have a basic understanding of AI concepts and an interest in practical application of agentic workflows.",
+  "key_themes": [
+    "AI for Long-Form Content",
+    "Agentic AI Workflows",
+    "Hierarchical Document Generation",
+    "Overcoming AI Coherence Challenges",
+    "Automated Screenwriting",
+    "Customizable AI Architectures"
+  ]
+}

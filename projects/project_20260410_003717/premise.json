@@ -1,0 +1,22 @@
+{
+  "title": "Agentic AI for Long-Form Document Generation: A Screenplay Case Study",
+  "thesis": "Large Language Models (LLMs) inherently struggle to maintain global coherence and consistent context when generating lengthy documents in a single pass, often leading to 'context drift' and loss of focus. This presentation argues that by employing a modular, hierarchical 'agentic flow,' which systematically breaks down complex generation tasks—such as screenplay writing—into a series of specialized, interdependent agents and iteratively refined stages, these fundamental limitations can be overcome, thereby enabling the creation of structured, high-quality, and narratively coherent long-form content.",
+  "scope": "This lecture will explore the challenges associated with using AI for one-shot long-form document generation and present a comprehensive solution through an agentic, hierarchical framework. We will specifically demonstrate this framework's implementation for movie screenplays, detailing how to break down a narrative into structured components like premises, arcs, sequences, and scenes, and how dedicated agents facilitate their generation. The discussion will also cover enhancing generated outputs through refinement agents and generalizing this architecture to other long text documents such as books, podcasts, or business plans. This presentation will focus on the architectural concepts and practical workflow, rather than deep technical dives into underlying LLM mechanisms or specific code implementations.",
+  "learning_objectives": [
+    "Understand the core challenges and limitations of using AI for 'one-shot' generation of long, coherent text documents.",
+    "Identify and apply the hierarchical structural breakdown of complex documents (e.g., screenplays) into manageable components (premise, arc, sequences, scenes).",
+    "Design and conceptualize an agentic, modular workflow for sequential and context-aware long-form text generation.",
+    "Explain how specialized AI agents, communicating via structured data (e.g., JSON), can collaboratively maintain narrative coherence and context across an entire document.",
+    "Recognize the value and integration of enhancement agents for iteratively refining and improving intermediate outputs within a generative AI pipeline.",
+    "Adapt the principles of the hierarchical agentic flow to generalize long-form content generation to a variety of document types beyond screenplays."
+  ],
+  "intended_audience": "This lecture is intended for AI developers, content creators, technical writers, and anyone interested in leveraging large language models for complex, structured long-form content generation. It is particularly relevant for those seeking practical solutions to manage context and ensure coherence in AI-generated lengthy texts.",
+  "key_themes": [
+    "Agentic AI Systems",
+    "Long-Form Content Generation",
+    "Hierarchical Document Structuring",
+    "Context Management & Coherence",
+    "Modular AI Workflows",
+    "Generative AI Refinement"
+  ]
+}

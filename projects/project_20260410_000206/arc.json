@@ -1,0 +1,34 @@
+{
+  "overview": "The lecture begins by humorously setting the stage for AI's role in creative content, quickly transitioning to the critical challenges of generating long, coherent text in a 'one-shot' approach, particularly for complex documents like screenplays. It then introduces and systematically details a hierarchical, agentic workflow designed to overcome these challenges, showcasing how specialized AI agents collaboratively build narratives from premise to scene. Finally, the lecture demonstrates how to enhance these flows for quality and generalize the architecture to diverse document types, culminating in a practical coding session for participants.",
+  "acts": [
+    {
+      "name": "Setting the Stage: The Promise and the Problem",
+      "slide_range": "1-4",
+      "purpose": "To humorously introduce the concept of AI in creative writing, establish the potential for long-form generation, and then immediately present the core challenges (context drift, global coherence) that a 'one-shot' AI faces with complex, structured documents like screenplays. This sets up the necessity for the proposed agentic solution."
+    },
+    {
+      "name": "Deconstructing Complexity: The Hierarchical Agentic Workflow",
+      "slide_range": "5-15",
+      "purpose": "To introduce and thoroughly explain the hierarchical agentic workflow as the solution to long-form generation challenges. This act systematically details each specialized AI agent (Premise, Arc, Sequence, Scene Agent), illustrating their specific roles, inputs, and the structured JSON outputs they produce, thereby building a complete screenplay step-by-step from high-level concept to granular scene details."
+    },
+    {
+      "name": "Elevating Quality & Expanding Horizons",
+      "slide_range": "16-17",
+      "purpose": "To demonstrate how the core agentic workflow can be refined and extended. This includes introducing 'enhancement agents' to improve the quality, consistency, and creativity of intermediate outputs, and crucially, illustrating how the fundamental hierarchical architecture can be generalized and adapted to generate diverse types of long-form documents beyond screenplays."
+    },
+    {
+      "name": "Hands-On Application: Building Your Own Agentic Flows",
+      "slide_range": "18",
+      "purpose": "To transition from theoretical explanation to practical application, inviting the audience to engage in a coding session. This segment aims to solidify understanding by enabling participants to actively implement the learned agentic workflow concepts, including designing core agents, integrating enhancement agents, and adapting the architecture for different document types."
+    }
+  ],
+  "transitions": [
+    "After a lighthearted opening, we pivot sharply from the exciting potential of AI generating long texts to the stark, practical limitations inherent in a 'one-shot' approach, revealing why generating a complex document like a screenplay needs more than just a powerful language model.",
+    "Having established the fundamental challenges of context drift and maintaining global coherence in long-form generation, we now introduce the core innovation: a hierarchical, agentic workflow that meticulously breaks down complexity, guiding AI through each structural layer of a screenplay.",
+    "As we progress from defining the high-level story premise and arc, we delve deeper into the narrative, demonstrating how the outputs from earlier agents become the essential blueprints for subsequent agents to craft detailed sequences and, ultimately, individual scenes, systematically building our story.",
+    "We've seen how dedicated agents can construct a screenplay piece by piece, but what if we want to elevate the *quality* and *creativity* of these pieces? Now, we introduce a powerful layer of 'enhancement agents' designed to refine and polish these intermediate outputs, making our generated content not just coherent, but truly compelling.",
+    "With our core agentic flow producing high-quality screenplays, we'll now unlock its full potential by demonstrating how this same flexible, hierarchical architecture can be adapted with simple prompt modifications to generate virtually any structured long-form document, from books to business plans.",
+    "Having explored the architecture, seen its enhancements, and understood its broad applicability, it's time to roll up our sleeves. We'll now transition to a practical coding session, empowering you to build and customize your own agentic flows for generating long-form content."
+  ],
+  "emphasis": "The core emphasis should be on empowering the audience to understand *why* 'one-shot' generation fails for complex long-form content and *how* a structured, agentic approach fundamentally overcomes these inherent AI limitations. Stress the pedagogical value of breaking down complex problems into manageable, sequential stages managed by specialized AI agents, fostering a collaborative design mindset. Emotionally, convey both the initial frustration of AI's current limitations and the excitement of a robust, practical solution that unlocks new possibilities for creators. Reinforce that this isn't just about automated screenwriting, but a versatile architectural pattern for generating *any* structured long document, fostering a sense of capability and innovation in leveraging advanced AI techniques."
+}

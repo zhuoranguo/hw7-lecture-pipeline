@@ -1,0 +1,35 @@
+{
+  "overview": "This lecture dissects the inherent challenges Large Language Models face in generating coherent, long-form documents in a single pass, primarily focusing on 'context drift.' It then introduces a comprehensive solution: a modular, hierarchical 'agentic flow' specifically demonstrated through the process of screenplay generation. The presentation systematically builds this framework, from conceptualizing foundational story elements to generating granular scene details, before concluding with methods for refining outputs and generalizing the architecture to diverse document types.",
+  "acts": [
+    {
+      "name": "The Challenge of Long-Form Coherence",
+      "slide_range": "1-3",
+      "purpose": "Introduce the presentation's topic of AI-generated screenplays, establish the potential of LLMs for long documents, but quickly pivot to the fundamental limitations of 'one-shot' generation, specifically context drift and loss of focus over extended text."
+    },
+    {
+      "name": "Designing the Agentic Workflow: Premise to Arc",
+      "slide_range": "4-11",
+      "purpose": "Introduce the core solution: breaking down complex long-form documents into a hierarchical structure. Detail the initial stages of the agentic flow, specifically how a 'Premise Agent' and 'Arc Agent' collaborate using structured JSON outputs to establish a coherent foundational narrative."
+    },
+    {
+      "name": "Granular Generation and Context Management",
+      "slide_range": "12-15",
+      "purpose": "Demonstrate the more granular stages of the agentic workflow, explaining how 'Sequence Agents' and 'Scene Agents' leverage all prior structured context to generate detailed narrative components while meticulously avoiding context drift, showcasing the power of modular, interdependent agents."
+    },
+    {
+      "name": "Enhancing Quality and Broadening Horizons",
+      "slide_range": "16-18",
+      "purpose": "Explore methods for improving the generated content through 'Enhancement Agents' and illustrate how the entire hierarchical agentic framework can be generalized and adapted to generate various other long-form document types, concluding with a practical call to action for hands-on application."
+    }
+  ],
+  "transitions": [
+    "From the broad potential of AI for long documents, we will pivot to the specific, critical challenge of maintaining coherence when generating lengthy texts in a single pass.",
+    "Having defined the pervasive problem of 'one-shot' long-form generation, we will now introduce the hierarchical breakdown of documents as the foundational conceptual solution.",
+    "Moving from the high-level conceptual flow, we will dive into the detailed implementation of the initial agents – Premise and Arc – demonstrating how structured outputs build a coherent narrative foundation.",
+    "With the overarching story arc established, we will proceed to the automated generation of its detailed components: individual sequences and scenes, meticulously maintaining context at every step.",
+    "After demonstrating the end-to-end generation of narrative components, we will explore crucial methods for refining and iteratively improving the quality of these intermediate outputs.",
+    "From a specific solution for screenplays, we will now broaden our perspective, illustrating the universal applicability of this agentic architecture across diverse document types.",
+    "Having explored the generalized architecture and its refinement, we will conclude with a practical call to action, encouraging hands-on experimentation and implementation of these powerful concepts."
+  ],
+  "emphasis": "The primary emphasis should be on highlighting the fundamental limitations of 'one-shot' LLM generation, particularly 'context drift' and loss of focus, as the critical problem this architecture solves. Pedagogically, stress the *necessity* of the modular, hierarchical agentic approach as a robust framework, rather than just an optional methodology. It's crucial to underscore how structured data passing between specialized agents is the lynchpin for maintaining global coherence. Emotionally, convey the excitement of overcoming a significant challenge in AI content creation, empowering the audience with a practical and extensible solution for high-quality, long-form content generation. Finally, emphasize the value of iterative refinement and the broad applicability of these principles beyond the screenplay case study."
+}

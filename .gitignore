@@ -1,0 +1,17 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.DS_Store
+
+# Generated media (per assignment — do not commit)
+projects/**/slide_images/*.png
+projects/**/slide_images/*.jpg
+projects/**/audio/*.mp3
+projects/**/*.mp4
+
+# Optional: uncomment if you prefer not to commit generated JSON
+# style.json
+# projects/
